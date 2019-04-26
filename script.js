@@ -5,23 +5,19 @@ for (var i = 0; i < 100; i++) {
 
 // condizione per i multipli di 5
   if (numeri%5==0) {
-    console.log("Buzz");
+    document.writeln("Buzz");
   }
 
 // condizione per i multipli di 3
   if (numeri%3==0) {
-    console.log("Fizz");
+    document.writeln("Fizz");
   }
-  console.log(numeri)
 
 // condizione per i multipli di 3 e 5
   if (numeri%3==0 && numeri%5==0) {
-    console.log("FizzBuzz");
+    document.writeln("FizzBuzz");
   }
+
+//Stampa finale
+  document.writeln(numeri + "<br>");
 }
-
-
-
-
-
-// stampa finale
